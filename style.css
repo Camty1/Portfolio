@@ -106,6 +106,10 @@ h3 {
     font-size: 1.5rem;
 }
 
+h4 {
+    font-size: .875rem;
+}
+
 .gray {
     color: #aaa;
 }
@@ -141,4 +145,25 @@ li > * {
 p {
     font-family: open sans, sans-serif;
     font-size: 1rem;
+}
+
+.listDiv {
+    display: block;
+    vertical-align: middle;
+    margin: auto;
+    background-color: #E5E4E2;
+}
+
+.listImage {
+    width: 20%;
+}
+
+.listText {
+    text-align: right;
+    line-height: 1em;
+    width: 80%;
+}
+
+.listP {
+    font-size: .75rem;
 }
