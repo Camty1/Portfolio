@@ -116,8 +116,8 @@ h4 {
 
 .headerImage {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
     object-fit: cover;
     padding: 0.5rem;
     border: 1px solid rgba(0, 0, 0, .125);
@@ -151,19 +151,33 @@ p {
     display: block;
     vertical-align: middle;
     margin: auto;
-    background-color: #E5E4E2;
+    margin-top: 1em;
+    background-color: #f5f5f5;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .5em;
 }
 
 .listImage {
     width: 20%;
+    border-radius: 50%;
 }
 
 .listText {
     text-align: right;
     line-height: 1em;
     width: 80%;
+    height: 100%;
+}
+
+.listText > h4 {
+    margin-bottom: 0;
+    margin-right: 1.5em;
 }
 
 .listP {
     font-size: .75rem;
+    width: 80%;
+    float: right;
+    margin-right: 1.5em;
 }
